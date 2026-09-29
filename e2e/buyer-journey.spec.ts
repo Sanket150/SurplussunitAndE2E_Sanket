@@ -114,5 +114,5 @@ test("Buyer can submit an enquiry and Admin can view it in Leads Inbox", async (
 
   await expect(leadRow).toContainText(`${testData.product.quantity} units`);
 
-  await expect(leadRow).toContainText("New");
+   await expect(leadRow).toContainText("New");
 });
